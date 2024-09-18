@@ -8,7 +8,7 @@ This project is modified from mmdetection. Follow the steps:
 1. Create a conda env (**Strongly suggested!**) and activate, install Python and PyTorch.
 Our project is developed under Ubuntu 22.04 + Python=3.10 + torch=2.0.1 + cu118
 2. Install mmdetection. Our project is modified from mmdet==3.2.0
-(**Note**: we will add proper citation for mmdetection and MM-Grounding-DINO in camerra-ready version or furture work, which we accidently forgot in submission to ICASSP2025. Apologize for this mistake.)
+(**Note**: we will add proper citation for mmdetection and MM-Grounding-DINO in camera-ready version or furture work, which we accidently forgot in submission to ICASSP2025. Apologize for this mistake.)
 
 ```
 pip install -U openmim==0.3.9
