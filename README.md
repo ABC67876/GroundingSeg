@@ -10,7 +10,7 @@ Our project is developed under Ubuntu 22.04 + Python=3.10 + torch=2.0.1 + cu118
 2. Install mmdetection. Our project is modified from mmdet==3.2.0
 
 ```
-pip install -U openmim
+pip install -U openmim==0.3.9
 mim install mmengine==0.10.4
 mim install mmcv==2.1.0
 ```
@@ -23,5 +23,7 @@ pip install -v -e .
 # "-v" means verbose, or more output
 # "-e" means installing a project in editable mode,
 # thus any local modifications made to the code will take effect without reinstallation.
-```
 
+pip install -r requirements.txt
+# Not yet filtered for the minimum version
+```
