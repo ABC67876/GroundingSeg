@@ -246,7 +246,7 @@ class GroundingDINOMask2former(DINO):
 
             caption_string = ""
             tokens_positive = []
-            if not self.training or True:
+            if not self.training or not True: # if use brain atlas or brainPTM, set aux_text None here
                 aux_text = "None"
             if aux_text != "None":
                 num_of_prompts = len(aux_text)
@@ -260,7 +260,7 @@ class GroundingDINOMask2former(DINO):
                     aux_text = aux_text[choice]
             entities=[]
             if aux_text == "None":
-                if True: # brain atlas
+                if not True: # brain atlas
                     names = [
                         "Left Lateral Ventricle",
                         "Right Lateral Ventricle",
