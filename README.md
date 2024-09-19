@@ -28,3 +28,10 @@ pip install -v -e .
 pip install -r requirements.txt
 # Not yet filtered for the minimum version
 ```
+4. visit the https://github.com/ABC67876/GroundingSeg/tree/main/patch to fix some issues.
+
+## Usage
+Generally, run the https://github.com/ABC67876/GroundingSeg/blob/main/mmdetection/tools/train.py and https://github.com/ABC67876/GroundingSeg/blob/main/mmdetection/tools/test.py
+For each dataset, we have a config file for detection and segmentation respectively.
+Data format should be COCO for detection and COCO panoptic for segmentation.
+**We are currently working on this repo for better documents. This part is under progress.**
