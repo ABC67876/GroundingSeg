@@ -1,5 +1,5 @@
 # GroundingSeg
-**This repo is not refactored yet， not ready to use currently!!!**
+**This repo is not refactored yet， not ready for out-of-box usage currently!!!**
 
 ## Installation
 This project is modified from mmdetection. Follow the steps:
