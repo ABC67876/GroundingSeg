@@ -1,5 +1,5 @@
 # GroundingSeg
-**This repo is not refactored yet!!!**
+**This repo is not refactored yet， not ready to use currently!!!**
 **MRI images will not be released, avoiding violating licences. Code for data processing is given.**
 
 ## Installation
