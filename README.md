@@ -32,6 +32,11 @@ pip install -r requirements.txt
 
 ## Usage
 Generally, run the https://github.com/ABC67876/GroundingSeg/blob/main/mmdetection/tools/train.py and https://github.com/ABC67876/GroundingSeg/blob/main/mmdetection/tools/test.py
+
 For each dataset, we have a config file for detection and segmentation respectively.
+
 Data format should be COCO for detection and COCO panoptic for segmentation.
+
 **We are currently working on this repo for better documents. This part is under progress.**
+
+We **will** provide scripts for data generating, pretrain weights, and refactor this project for easier usage.
